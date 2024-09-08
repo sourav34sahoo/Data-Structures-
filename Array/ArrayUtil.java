@@ -12,7 +12,7 @@ public class ArrayUtil
 	public void arrayDemo()
 	{
 		int[] myArray = new int[5];
-		printArray(myArray);
+		printArray(myArray);        // Default values 0 0 0 0 0
 	}
 	public static void main(String...args)
 	{
