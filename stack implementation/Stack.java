@@ -8,6 +8,13 @@ public class Stack
 		top++; 
 	}
 	
+	public int size(){
+		return top;
+	}
+	public boolean isEmpty(){
+		return top<=0;
+	}
+	
 	public int pop()
 	{
 		int data;

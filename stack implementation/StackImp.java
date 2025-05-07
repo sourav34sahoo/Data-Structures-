@@ -7,8 +7,10 @@ public class StackImp
 		num.push(8);
 		
 		System.out.println(num.peek());
+		System.out.println("size is "+ num.size());
+		System.out.println("empty = "+num.isEmpty());
 		
-		//System.out.println(num.pop());
+		System.out.println(num.pop());
 		num.show();
 	}
 }
