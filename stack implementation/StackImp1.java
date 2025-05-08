@@ -12,6 +12,8 @@ public class StackImp1
 		num.show();
 		num.push(50);
 		num.show();
+		num.push(60);
+		num.show();
 		System.out.println(num.pop());
 		System.out.println(num.pop());
 		System.out.println(num.pop());
