@@ -16,12 +16,13 @@ public class Queue1{
 	}
 	
 	public int deQueue(){
-		int data = queue[front];
-		if(!isEmpty()){
+		int data=0;
+		if(isEmpty()){
+			System.out.println("Queue is empty");
+		} else {
+			data = queue[front];
 			front++;
 			size--;
-		} else {
-			System.out.println("Queue is empty");
 		}
 		return data;
 	}
